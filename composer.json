@@ -1,0 +1,25 @@
+{
+    "name": "devuelving/clickcanarias-sdk-php",
+    "description": "Click Canarias SDK for PHP",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DT Tecnologia",
+            "email": "admin@dttecnologia.com"
+        },
+        {
+            "name": "David Cortés",
+            "email": "dacoto@dacoto.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "devuelving\\ClickCanarias\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
